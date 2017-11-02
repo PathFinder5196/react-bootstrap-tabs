@@ -1,3 +1,5 @@
+# This is forked from master plugin to achieve some custom functionality
+
 # React Tabs component using Bootstrap 4
 
 This is a react component to render tabs using <a href="http://v4-alpha.getbootstrap.com/">Bootstrap 4</a> classes.
