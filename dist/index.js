@@ -99,10 +99,10 @@
 
                 var customActiveHeaderStyle = !isActive ? null : Object.assign({}, _this.props.activeHeaderStyle, tab.props.activeHeaderStyle);
                 var linkStyle = Object.assign({}, _this.props.headerStyle, tab.props.headerStyle, customActiveHeaderStyle);
-                var linkParentStyle = Object.assign({}, _this.props.style, tab.props.style);
+
                 return _react2.default.createElement(
                     'li',
-                    { key: index, className: 'nav-item', style: linkParentStyle},
+                    { key: index, className: 'nav-item' },
                     _react2.default.createElement(
                         'a',
                         { className: linkClasses, style: linkStyle, onClick: tab.props.disabled ? null : _this._handleClick.bind(_this, index) },
