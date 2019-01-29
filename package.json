@@ -21,7 +21,7 @@
     "mocha": "--require scripts/mocha_runner src/**/tests/**/*.js"
   },
   "scripts": {
-    "prepublish": "babel --plugins 'transform-es2015-modules-umd' src --ignore tests --out-dir ./dist",
+    "prepublish": "babel src --ignore tests --out-dir ./dist",
     "lint": "eslint ./src",
     "lintfix": "eslint ./src --fix",
     "testonly": "mocha $npm_package_options_mocha",
@@ -57,7 +57,7 @@
   "dependencies": {
     "babel-runtime": "^6.23.0",
     "classnames": "^2.2.5",
-    "prop-types": "15.6.2",
+    "prop-types": "15.6.2"
   },
   "main": "index.js"
 }
